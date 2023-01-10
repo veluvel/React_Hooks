@@ -1,0 +1,13 @@
+$blue : pink;
+
+@function fontsize($f , $s){
+    @return $f * $s;
+}
+
+@mixin textstyle{
+    font-size: fontsize(5, 15)*1px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    text-shadow: 2px 2px 2px white;
+}

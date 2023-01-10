@@ -1,0 +1,22 @@
+@import "./Variables.scss";
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    color: red;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    .heading{
+        //first priority in parent in child
+        // color: green;
+        color: $blue;
+    } 
+}
+.heading{
+    color: blue;
+}
+.mix{
+    @include textstyle;
+}

@@ -1,22 +1,3 @@
-// import React,{useState} from 'react'
-
-// export const One = () => {
-//   const [name,setName] = useState("Velmurugan");
- 
-//   const changeName =()=>{
-//     setName ("Im a Front End Devloper")
-//   }
-
-//   return (
-//     <div>
-//       {name} <br/>
-//       <button onClick={changeName}>changeName</button>
-
-//     </div>
-//   )
-// }
-
-// export default One
 import React, { useState } from "react";
 
 const initialCount = 0;
