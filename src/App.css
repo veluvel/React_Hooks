@@ -1,0 +1,30 @@
+/* *{
+  font-size: 20px;
+  text-align: center;
+}
+div{
+  margin-top: 30px;
+}
+.head{
+  margin-top: 30px;
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+}
+.head .cl-btn{
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  box-shadow: 5px 5px 10px  rgb(90, 87, 89);
+}
+.head .cl-btn:hover{
+  color:white;
+  background:linear-gradient(rgb(49, 192, 202),rgb(167, 167, 61));
+  transform: scale(1.3);
+  transition: all 1s ease;
+}
+.value{
+  font-size: 30px;
+  color: red;
+  text-shadow: 1px 0px 15px black;
+} */
